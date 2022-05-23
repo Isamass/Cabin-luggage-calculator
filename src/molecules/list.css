@@ -1,0 +1,123 @@
+@import url('http://fonts.cdnfonts.com/css/made-mirage');
+
+
+.list-box {
+    display: flex;
+    flex-direction: column;
+    width: 323px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    height: fit-content
+}
+
+h1 {
+    text-align: center;
+    font-family: 'MADE Mirage';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 115%;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: -16px;
+    margin-right: 16px;
+}
+
+hr {
+    height: 1px;
+    background-color: #DDDDDD;
+    border: none;
+    margin: 0px;
+}
+
+.empty {
+    height: 596px;
+}
+
+
+.footer-list {
+    justify-self: flex-end;
+    font-family: 'Open Sans';
+
+}
+
+.selected button {
+    width: 291px;
+    height: 41px;
+    border-radius: 2px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 115%;
+    color: #FFFFFF;
+    border: none;
+}
+
+.selected button:disabled {
+
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+.selected button:enabled {
+
+    background: #000000;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 89px;
+}
+
+.total-container {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 16px 0px 16px;
+}
+
+.red {
+    color: #FF5353
+}
+
+.content-list {
+    height: 100%
+}
+
+.loading {
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-dot {
+        animation: spin 1.5s infinite linear;
+
+        border: solid 5px white;
+        border: 5px solid white;
+        border-bottom-color: black;
+
+        border-radius: 50%;
+        content: "";
+        height: 40px;
+        width: 40px;
+}
+
+@keyframes spin {
+    0% { 
+        transform: rotate(0deg);
+
+    }
+    100% { 
+        transform: rotate(360deg);
+    }
+}
+

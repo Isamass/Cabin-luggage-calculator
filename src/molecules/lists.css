@@ -1,0 +1,11 @@
+.centered {
+    align-self: center;
+}
+
+.lists {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 85px;
+    height: 596px;
+}

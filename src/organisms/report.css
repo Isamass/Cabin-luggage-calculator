@@ -1,0 +1,17 @@
+.company {
+    
+    box-sizing: border-box;
+/* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 20px;
+    gap: 24px;
+
+
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    margin-top: 91px;
+    margin-bottom: 85px
+}

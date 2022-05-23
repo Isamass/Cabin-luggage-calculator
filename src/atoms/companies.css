@@ -1,0 +1,30 @@
+.companies {
+    position: absolute;
+    background: white;
+    box-sizing: border-box;
+    padding: 15px;
+    border: 1px solid #CCCCCC;
+    margin-top: 0px;
+
+}
+
+
+.airlines-button {
+    padding: 15px 20px 15px 20px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    display: flex;
+    flex-direction: row;
+    margin-top: 91px;
+    gap: 10px;
+    align-items: center;
+}
+
+label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
